@@ -1,0 +1,38 @@
+body{
+    margin: 30px;
+    position:relative;
+
+}
+input{
+    margin-right: 40px;
+}
+p{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.info-item{
+    border:1px solid gray;
+    border-radius: 4px;
+}
+
+.pagination {
+    /*position: fixed;*/
+    /*bottom: 30px;*/
+   display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.pageNumStyle {
+    color: black;
+    font-weight: bold;
+    padding: 8px 16px;
+
+}
+
+.pageNumStyle:hover {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}

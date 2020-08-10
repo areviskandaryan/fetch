@@ -1,0 +1,23 @@
+
+body{
+    margin:30px
+}
+
+table {
+    width:70%;
+}
+
+
+table, td {
+    border:2px solid;
+    border-collapse:collapse;
+    text-align:center
+}
+
+
+thead{
+ font-weight: bold;
+}
+
+
+
